@@ -1,0 +1,24 @@
+nav.navigation {
+	height: 3.5rem;
+}
+
+.navigation ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #29aeb9;
+	color: white;
+	height: inherit;
+}
+
+.navigation li {
+	margin: 1.4rem 2rem;
+	font-weight: 600;
+}
+
+.navigation li:hover {
+	background-color: white;
+}

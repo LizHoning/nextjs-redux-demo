@@ -1,0 +1,12 @@
+.wordSelect {
+	display: flex;
+	flex-direction: column;
+}
+
+.bleh {
+	height: 20px;
+}
+
+.gah {
+	text-align: center;
+}

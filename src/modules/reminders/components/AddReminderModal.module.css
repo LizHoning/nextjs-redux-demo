@@ -1,0 +1,30 @@
+.modal {
+	position: absolute;
+	background-color: wheat;
+	height: 700px;
+	width: 300px;
+	top: calc((100vh - 700px) / 2);
+	left: calc((100vw - 300px) / 2);
+	border-radius: 20px;
+}
+
+.meh {
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+}
+
+.mehMeh {
+	display: flex;
+	flex-direction: row;
+}
+
+.sdf {
+	display: flex;
+	flex-direction: row;
+}
+
+.numberButtons {
+	display: flex;
+	flex-direction: column;
+}

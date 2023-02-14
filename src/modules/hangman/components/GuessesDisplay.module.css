@@ -1,0 +1,25 @@
+.letterContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: center;
+	gap: 20px 48px;
+}
+
+.letter {
+	padding: 8px 32px;
+}
+
+.unguessedLetter {
+	color: #bfbdbd;
+}
+
+.correctLetter {
+	color: #36e05a;
+	font-weight: 600;
+}
+
+.incorrectLetter {
+	color: red;
+	font-weight: 600;
+}

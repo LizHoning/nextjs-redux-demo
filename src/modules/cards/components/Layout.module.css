@@ -1,0 +1,32 @@
+.cardsLayout {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+@media (min-width: 40rem) and (min-height: 60rem) {
+	.cardsLayout {
+		flex-direction: row;
+	}
+}
+
+/*
+if both are true then it is applied
+
+ @media (min-width: 40rem) and (orientation: landscape) {
+	.cardsLayout {
+		flex-direction: row;
+	}
+} */
+
+/*
+if one of these two conditions is true then it is applied
+@media (min-width: 40rem), (orientation: landscape) {
+	.cardsLayout {
+		flex-direction: row;
+	}
+} */
+/* 
+Landscape and portrait are things on desktop too */
